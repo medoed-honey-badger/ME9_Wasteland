@@ -1,4 +1,4 @@
-SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Factions/FactionManager_OPFORxBLUFORxINDEPENDENT.et" {
+SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Factions/ME9_FactionManager_OPFxBLUxIND.et" {
  coords 117.448 1 111.279
  Factions {
   SCR_Faction "{68D90C240A962FAD}" {
@@ -1052,7 +1052,7 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
      m_eEntityCatalogType CHARACTER
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{68D928DC3894163A}" {
-       m_sEntityPrefab "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/Character_OPFOR_Base.et"
+       m_sEntityPrefab "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/ME9_Character_OPFOR_Base.et"
       }
      }
     }
@@ -2074,7 +2074,7 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
      m_eEntityCatalogType CHARACTER
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{68D928DC3894163A}" {
-       m_sEntityPrefab "{5F584F1066658643}Prefabs/Characters/Factions/BLUFOR/Character_BLUFOR_Base.et"
+       m_sEntityPrefab "{5F584F1066658643}Prefabs/Characters/Factions/BLUFOR/ME9_Character_BLUFOR_Base.et"
       }
      }
     }
@@ -2961,7 +2961,7 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
      m_eEntityCatalogType CHARACTER
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{68D928DC3894163A}" {
-       m_sEntityPrefab "{BDFE5C82D2010877}Prefabs/Characters/Factions/INDFOR/Character_INDEPENDENT_base.et"
+       m_sEntityPrefab "{BDFE5C82D2010877}Prefabs/Characters/Factions/INDFOR/ME9_Character_INDEPENDENT_base.et"
       }
      }
     }
@@ -2969,22 +2969,22 @@ SCR_FactionManager FactionManager : "{76E153611E00012F}Prefabs/MP/Managers/Facti
   }
  }
 }
-SCR_LoadoutManager LoadoutManager : "{47543DFAF85809C5}Prefabs/MP/Managers/Loadouts/LoadoutManager_OPFORxBLUFORxINDEPENDENT.et" {
+SCR_LoadoutManager LoadoutManager : "{47543DFAF85809C5}Prefabs/MP/Managers/Loadouts/ME9_LoadoutManager_OPFxBLUxIND.et" {
  coords 116.809 1 111.022
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{68D90C22C0DC227A}" {
    m_sLoadoutName "OPF-Loadout"
-   m_sLoadoutResource "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/Character_OPFOR_Base.et"
+   m_sLoadoutResource "{B951A81F9082585D}Prefabs/Characters/Factions/OPFOR/ME9_Character_OPFOR_Base.et"
    m_sAffiliatedFaction "OPFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22C64C3871}" {
    m_sLoadoutName "BLU-Loadout"
-   m_sLoadoutResource "{5F584F1066658643}Prefabs/Characters/Factions/BLUFOR/Character_BLUFOR_Base.et"
+   m_sLoadoutResource "{5F584F1066658643}Prefabs/Characters/Factions/BLUFOR/ME9_Character_BLUFOR_Base.et"
    m_sAffiliatedFaction "BLUFOR"
   }
   SCR_FactionPlayerLoadout "{68D90C22D9243A92}" {
    m_sLoadoutName "IND-Loadout"
-   m_sLoadoutResource "{BDFE5C82D2010877}Prefabs/Characters/Factions/INDFOR/Character_INDEPENDENT_base.et"
+   m_sLoadoutResource "{BDFE5C82D2010877}Prefabs/Characters/Factions/INDFOR/ME9_Character_INDEPENDENT_base.et"
    m_sAffiliatedFaction "INDEPENDENT"
   }
  }
